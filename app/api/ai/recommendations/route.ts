@@ -1,7 +1,5 @@
 import { type NextRequest, NextResponse } from "next/server"
 
-const GEMINI_API_KEY = "AIzaSyA7y2jAw1WbuCkLKNCx-M7sPBa85ewGvNs"
-
 // Mock jobs database
 const availableJobs = [
   {

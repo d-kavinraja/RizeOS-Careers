@@ -1,7 +1,6 @@
 import { type NextRequest, NextResponse } from "next/server"
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "AIzaSyA7y2jAw1WbuCkLKNCx-M7sPBa85ewGvNs"
-
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY
 export async function POST(request: NextRequest) {
   try {
     console.log("[v0] Starting skill extraction...")
